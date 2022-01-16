@@ -1,3 +1,12 @@
+body {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Overpass', sans-serif;
+}
+
+p {
+    color: gray;
+}
+
 .header {
     height: 600px;
     background: url('../images/bg-pattern-intro-desktop.svg');

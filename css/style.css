@@ -5,6 +5,7 @@ body {
 
 p {
     color: gray;
+    font-size: 15px;
 }
 
 .header {
@@ -14,5 +15,30 @@ p {
     background-size: cover;
     background-position: center;
     background-color: hsl(356, 100%, 66%);
-    border-bottom-left-radius: 90px;
+    border-bottom-left-radius: 100px;
+}
+
+.hover-effect:hover {
+    color: white !important;
+    background-color: hsl(355, 100%, 74%);
+    transition: all 0.4s;
+}
+
+.learn-more-btn:hover {
+    color: rgb(220,53,69);
+    font-weight: 600;
+}
+
+.infrastructure-section {
+    height: 430px;
+    background: url("../images/bg-pattern-circles.svg") hsl(237, 17%, 21%) ;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.footer {
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 100px;
 }
